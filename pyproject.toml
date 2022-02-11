@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-flask-server"
+version = "0.1.0"
+description = ""
+authors = ["juan mesaglio <juan.mesaglio@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6"
+pytest = "^6.2.4"
+flask-api = "2.0"
+
+[tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "meli-pypi"
+url = "https://pypi.artifacts.furycloud.io/simple/"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
